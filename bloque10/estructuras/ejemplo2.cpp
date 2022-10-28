@@ -19,14 +19,19 @@ int main() {
   for (int i = 0; i < 2; i++) {
     cout<<"ingrese su nombre";
     cin.getline(empleados[i].nombre, 20, '\n');
+    cin.ignore(1,'\n');
     cout<<"ingrese su direccion";
     cin.getline(empleados[i].dir_empleado.direccion, 30, '\n');
+    cin.ignore(1,'\n');
     cout<<"ingrese su ciudad";
     cin.getline(empleados[i].dir_empleado.ciudad, 30, '\n');
+    cin.ignore(1,'\n');
     cout<<"ingrese su provincia";
     cin.getline(empleados[i].dir_empleado.provincia, 30, '\n');
+    cin.ignore(1,'\n');
     cout<<"ingrese su salario";
     cin>>empleados[i].salario;
+    cin.ignore(1,'\n');
     cout<<'\n';
 
   }
