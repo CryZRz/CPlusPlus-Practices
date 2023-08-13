@@ -1,0 +1,3 @@
+/home/christian/Documentos/C++/pointers/cmake-build-debug/CMakeFiles/pointers.dir
+/home/christian/Documentos/C++/pointers/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/christian/Documentos/C++/pointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
